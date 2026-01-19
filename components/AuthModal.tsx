@@ -36,8 +36,6 @@ export default function AuthModal({ onClose }: { onClose: () => void }) {
   return (
     <div className="fixed inset-0 bg-black/60 backdrop-blur flex items-center justify-center z-50">
       <div className="bg-[#0f0f0f] w-[400px] rounded-xl p-6 border border-gray-800 relative">
-
-        {/* Close */}
         <button
           onClick={onClose}
           className="absolute right-4 top-4 text-gray-400 hover:text-white"
@@ -48,8 +46,6 @@ export default function AuthModal({ onClose }: { onClose: () => void }) {
         <h2 className="text-xl font-semibold text-white mb-6 text-center">
           Configure with Github
         </h2>
-
-        {/* OAuth Buttons */}
         <a
           href="/api/auth/github"
           className="flex items-center justify-center gap-3 w-full bg-white text-black py-2 rounded-lg font-medium hover:opacity-90"

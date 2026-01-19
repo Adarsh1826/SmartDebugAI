@@ -25,7 +25,6 @@ export default function Navbar() {
           {/* Right */}
           <div className="flex items-center gap-6 text-gray-300">
             <Link href="/" className="hover:text-green-400">Home</Link>
-            {/* <Link href="/dashboard" className="hover:text-green-400">Dashboard</Link> */}
 
             {/* GitHub Login Icon */}
             <button
