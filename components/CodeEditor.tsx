@@ -29,7 +29,9 @@ export default function CodeEditor({ language, onSubmit }: CodeEditorProps) {
 
   return (
     <div className="flex flex-col">
-      <textarea name="" id="" className="border-2 "></textarea>
+      <textarea name="" id="" className="border-2 " onChange={(e)=>{
+        setCode(e.target.value)
+      }}></textarea>
       <div className="overflow-hidden  px-0 pt-2 py-2">
         <button
         onClick={test}
